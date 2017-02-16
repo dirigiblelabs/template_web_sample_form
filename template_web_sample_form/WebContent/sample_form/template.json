@@ -5,7 +5,9 @@
     "preview":"sample-form-preview.png",
     "sources":[{
         "name":"sample-form.html",
-        "action":"generate"
+        "rootFolder":"WebContent",
+        "action":"generate",
+        "rename":"%s"
     }],
     "parameters":[{
         "name":"templateType",
